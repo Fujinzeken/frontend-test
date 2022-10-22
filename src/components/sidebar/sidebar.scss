@@ -28,6 +28,7 @@
             padding-top: 10px;
     
             .sidebar-menuTitle{
+                text-transform: uppercase;
                 color: #545F7D;
                 font-size: 14px;
                 font-weight: 500;
@@ -39,6 +40,7 @@
             }
     
             .sidebarList-list{
+                margin-bottom: 10px;
                 color: #213F7D;
                 padding: 5px;
                 cursor: pointer;

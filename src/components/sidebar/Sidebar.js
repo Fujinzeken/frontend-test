@@ -86,6 +86,22 @@ const Sidebar = () => {
         </ul>
        
       </div>
+      <div className='sidebar-menu'>
+        <h3 className='sidebar-menuTitle'>Settings</h3>
+        <ul className='sidebarList'>
+          <li className='sidebarList-list'>
+            <FaBriefcase  className='icon' />Preferences
+          </li>
+          <li className='sidebarList-list'>
+            <GiReceiveMoney className='icon'/>Fees and Pricing
+          </li>
+          <li className='sidebarList-list'>
+            <GiTakeMyMoney className='icon'/>Audit Logs
+          </li>
+          
+        </ul>
+       
+      </div>
       
         
        
