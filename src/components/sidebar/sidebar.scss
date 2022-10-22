@@ -4,7 +4,62 @@
     flex: 1;
     position: sticky;
     top: 50px;
-    height: calc(100vh - 50px);
+    height: calc(100% - 50px);
     margin-top: -10px;
    
+    .wrapper{
+        padding: 20px;
+        color: #213F7D;
+        font-family:'Work Sans';
+        .sidebarTopic{
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    
+        .sidebarDash{
+            font-weight: 200;
+            font-size: 16px;
+            opacity: 0.6;
+        }
+    
+        .sidebar-menu{
+            margin-bottom: 10px;
+            padding-top: 10px;
+    
+            .sidebar-menuTitle{
+                color: #545F7D;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 19px;
+            }
+            .sidebarList{
+                list-style: none;
+                padding: 5px;
+            }
+    
+            .sidebarList-list{
+                color: #213F7D;
+                padding: 5px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                border-radius: 10px;
+                z-index: 2;
+    
+                &.active,&:hover{
+                    background-color: #39CDCC;
+                    
+                }
+            }
+    
+        }
+    }
+    
+    
+    
+    .icon{
+        margin-right: 10px;
+    }
 }
+
